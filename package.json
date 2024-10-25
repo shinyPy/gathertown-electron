@@ -2,16 +2,29 @@
   "name": "gathertown-electron",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "start": "electron ."
-},
-
-
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.electron.gathertownwrapper",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "shinyPy",
+        "repo": "gathertown-electron"
+      }
+    ]
+  },
   "keywords": [],
-  "author": "",
+  "author": "shinyPy",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "electron": "^33.0.2"
+    "electron": "^33.0.2",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "electron-updater": "^6.3.9"
   }
 }
