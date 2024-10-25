@@ -32,7 +32,7 @@ app.whenReady().then(() => {
   autoUpdater.on('update-available', () => {
     dialog.showMessageBox({
       type: 'info',
-      title: 'Update Available. S',
+      title: 'Update Available.',
       message: 'A new version is available. It will be downloaded in the background.',
     });
   });
