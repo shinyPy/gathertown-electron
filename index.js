@@ -40,7 +40,7 @@ app.whenReady().then(() => {
   autoUpdater.on('update-downloaded', () => {
     dialog.showMessageBox({
       type: 'info',
-      title: 'Update Ready',
+      title: 'Update Ready (test)',
       message: 'A new version has been downloaded. Restart the application to apply the update?',
       buttons: ['Restart', 'Later']
     }).then((result) => {
