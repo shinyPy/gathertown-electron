@@ -44,4 +44,4 @@ jobs:
         with:
           files: dist/*.AppImage
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_ACTION_TOKEN }}

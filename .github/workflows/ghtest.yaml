@@ -9,4 +9,4 @@ jobs:
       - name: Check GH_TOKEN
         run: echo "GH_TOKEN is set"
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # This should not throw an error if set correctly
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEsN }}  # This should not throw an error if set correctly
