@@ -2,6 +2,10 @@
   "name": "gathertown-electron",
   "version": "1.0.0",
   "main": "index.js",
+  "author": {
+    "name": "shinyPy",
+    "email": "adveniscool@gmail.com"
+  },
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder"
@@ -21,7 +25,6 @@
       }
   },
   "keywords": [],
-  "author": "shinyPy",
   "license": "ISC",
   "description": "",
   "devDependencies": {
