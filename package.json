@@ -14,7 +14,11 @@
         "owner": "shinyPy",
         "repo": "gathertown-electron"
       }
-    ]
+    ],
+    "linux": {
+        "target": ["AppImage", "deb"],
+        "category": "Utility"
+      }
   },
   "keywords": [],
   "author": "shinyPy",
